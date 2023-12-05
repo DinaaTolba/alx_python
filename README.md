@@ -1,2 +1,1 @@
-# alx_python
-here is some python tasks
+here is some python tasks for my python new project
