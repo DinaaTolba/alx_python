@@ -1,2 +1,5 @@
-for i in range (99):
-    print(" {:d}=0x{:x}".format(i, i))
+output = ""
+for i in range(99):
+    output += "{:d} = 0x{:x}\n".format(i, i)
+
+print(output, end="")
