@@ -4,9 +4,12 @@
 def add(a, b):
     return a + b
 
-a = 1
-b = 2
+# Check if the script is being run directly
+if __name__ == "__main__":
+    # Assign values to variables
+    a = 1
+    b = 2
 
-# Print the result using string format
-result = add(a, b)
-print("{} + {} = {}".format(a, b, result))
+    # Print the result using string format
+    result = add(a, b)
+    print("{} + {} = {}".format(a, b, result))
