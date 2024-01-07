@@ -1,6 +1,19 @@
 '''size must be an integer, otherwise raise a TypeError exception with the message size must be an integer
 if size is less than 0, raise a ValueError exception with the message size must be >= 0'''
 class Square:
+    """
+    This class represents a square.
+
+    Attributes:
+        __size (int): The size of the square.
+
+    Methods:
+        __init__(self, size=0): Initializes a new Square instance.
+        area(self): Computes and returns the area of the square.
+        size(self): Getter method for retrieving the size attribute.
+        size(self, value): Setter method for setting the size attribute.
+
+    """
     def __init__(self, size=0):
         """
         Initializes a new Square instance.
@@ -46,5 +59,11 @@ class Square:
             self.__size = value
 
     def area(self):
+        """
+        Computes and returns the area of the square.
+
+        Returns:
+            int: The area of the square.
+        """
         area= self.__size**2
         return area
